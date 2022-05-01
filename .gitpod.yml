@@ -1,5 +1,4 @@
 tasks:
   - init: npm install #3&& npm run build
     command: | 
-     export HMR_HOST=`gp url 3000`
      npm run dev
